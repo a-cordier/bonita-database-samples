@@ -16,9 +16,9 @@ docker pull bonita_crud_pg
 docker run -v /tmp/data:/data -d -p 49153:5432 -e POSTGRESQL_DB="bonita"  -e POSTGRESQL_USER="bonita"-e POSTGRESQL_PASS="bonita"  -t docker_crud_pg 
 
 
-Do not forget to update pool variables in process if changes are commited environment.
+Do not forget to update pool variables in process if changes are commited to your environment.
 
-Default jdbc url is jdbc:postgresql://localhost/bonita and should be updated to match your configuration if running database on a remote host
+Default jdbc url is jdbc:postgresql://localhost/bonita and should be updated to match your configuration if you are running a database on a remote host
 
 #### Using a typical postgresql installation
 
